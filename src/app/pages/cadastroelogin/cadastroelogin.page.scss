@@ -1,0 +1,30 @@
+ion-content{  
+
+.background{
+    background-image: url('/assets/telainicial.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex; 
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+ion-button{
+    --border-color:none;
+}
+.button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(to right, blue, darkmagenta);
+ */
+    margin:20px;
+    
+    color:littleblue;   
+}
+.buttons{
+    margin:auto;
+    margin-bottom: 29vh;
+    
+
+}
+}

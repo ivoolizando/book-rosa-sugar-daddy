@@ -1,0 +1,42 @@
+ion-content{
+    .background{
+        background-image: url('/assets/bagroundcad2.jpg');
+        background-size: contain;
+        background-size: 100% 100%;
+        
+        background-repeat: no-repeat;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+
+        ion-back-button{
+            min-width: 50px;
+            min-height: 50px;
+            color: white;
+        }
+
+        .form{
+            background-color:rgba(22, 22, 22, 0.6);;
+            
+            margin: auto; 
+            width: 80vw;
+            text-align: center;
+            
+            h1{
+                
+                padding-inline: auto;
+                
+            }
+        }
+        .button{
+            color:white;
+
+        }
+    }
+       
+}
+    
+   
+

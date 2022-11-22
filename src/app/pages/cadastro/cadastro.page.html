@@ -1,0 +1,32 @@
+<ion-content>
+  <div class="background">
+    <ion-back-button></ion-back-button>
+    <div class="form">
+      <h1 position="floating">Cadastro</h1>
+        <ion-item color="none" lines="none">
+          <ion-label>Nome</ion-label>
+          <ion-input type="text" placeholder=" insira seu nome" #nome></ion-input>
+        </ion-item>
+        <ion-item color="none" lines="none">
+          <ion-label>Email</ion-label>
+          <ion-input type="email" placeholder=" insira seu email" #email></ion-input>
+        </ion-item>
+        <ion-item color="none" lines="none">
+          <ion-label>Senha</ion-label>
+          <ion-input type="password" placeholder=" insira sua senha" #senha></ion-input>
+        </ion-item>
+        <ion-item color="none" lines="none">
+          <ion-label>Confirma Senha</ion-label>
+          <ion-input type="password" placeholder=" confirme a senha" #confirmasenha></ion-input>
+        </ion-item>
+        <ion-button color="primary" (click)="cadastrar(nome, email, senha, confirmasenha)" expand="full">Cadastrar</ion-button>
+    </div>
+
+    
+
+    
+
+     
+  </div>
+
+</ion-content>
